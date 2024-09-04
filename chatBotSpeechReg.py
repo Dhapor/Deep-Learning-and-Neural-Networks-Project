@@ -22,7 +22,7 @@ data = pd.read_csv('Mental_Health_FAQ.csv')
 data.drop('Question_ID', axis = 1, inplace = True)
 # data
 
-# --------------------------------------- CHATBOT IMPLEMENTATION -----------------------------
+# --------------------------------------- CHATBOT ...IMPLEMENTATION -----------------------------
 
 # Define a function for text preprocessing (including lemmatization)
 def preprocess_text(text):
